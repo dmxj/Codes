@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da2e20b7-16bb-4fb3-9551-dda8f20f73d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastai/3_line_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastai/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastai/cluo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastai/data_augmentation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastai/example_cifar10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastai/example_vision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fb_faiss/1-flat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fb_faiss/2-ivfflat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fb_faiss/3-ivfpq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fb_faiss/4-gpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fb_faiss/5-multi-gpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/concat_img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/imgs/img0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/imgs/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv/mix_img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/compute_mean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/bell_00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/boy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/cluo_00.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/cluo_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/cluo_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/cluo_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/cluo_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/flower.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/fly.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/street.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/imgs/street2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess/img_normal/sub_mean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/demo_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/demo_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/demo_find.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/demo_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_peewee/models/user_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/base/file_path_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/base/format_bytes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/base/system_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/base/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/base/threading_timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/base/time_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/celery/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/celery/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/class_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/colorama_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/cv/make_data_listfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/data_load/data_load_with_keras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/data_load/data_load_with_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/data_load/data_loader_pytorch_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/easydict_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/func_descrator_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/fuzzywuzzy_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/1_0_standard_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/1_1_simple_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/1_2_heavy_aug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/2_0_keypoint_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/3_0_bbox_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/3_1_bbox_outsize_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/4_0_segmap_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/4_1_mask_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/4_2_segmap_array_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/imgaug/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/boy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/cluo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_file_color_space_conversion_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_file_load_dump_data_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_file_load_text_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_image_basic_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_image_trasform_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_utils_config_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_utils_progressbar_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_utils_timer_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/mmcv/mmcv_vis_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/named_pipe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/named_pipe/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/named_pipe/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/numpy/usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/nvidia-ml/basic_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/pendulum_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/pillow/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/pillow/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/pillow/cluo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/pillow/concat_imgs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/pillow/draw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/pillow/im_and_np.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/prettytable_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/progressbar_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/psutil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/psutil/basic_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/psutil/process_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/sh_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/simplecv/basic_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/skimage/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/the_shapely/get_box_intersects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/wget_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch/images/img0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch/torch_encoding/demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch/torch_encoding/demo_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch/torch_vision_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytorch/train_mnist_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/flag_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/freeze_graph_simplified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/freeze_keras_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/train_mnist_lenet_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_xgboost/cv_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_xgboost/dmatrix_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_xgboost/eval_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_xgboost/feature_importance_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_xgboost/predict_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_xgboost/train_usage.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Codes$3_0_bbox_usage.coverage" NAME="3_0_bbox_usage Coverage Results" MODIFIED="1547697779446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/imgaug" />
+    <SUITE FILE_PATH="coverage/Codes$train_usage.coverage" NAME="train_usage Coverage Results" MODIFIED="1548392868592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the_xgboost" />
+    <SUITE FILE_PATH="coverage/Codes$concat_imgs.coverage" NAME="concat_imgs Coverage Results" MODIFIED="1548819216617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pillow" />
+    <SUITE FILE_PATH="coverage/Codes$im_and_np.coverage" NAME="im_and_np Coverage Results" MODIFIED="1542690831746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pillow" />
+    <SUITE FILE_PATH="coverage/Codes$system_metrics.coverage" NAME="system_metrics Coverage Results" MODIFIED="1543482343751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/base" />
+    <SUITE FILE_PATH="coverage/Codes$mmcv_utils_config_usage.coverage" NAME="mmcv_utils_config_usage Coverage Results" MODIFIED="1544702969177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/mmcv" />
+    <SUITE FILE_PATH="coverage/Codes$demo_delete.coverage" NAME="demo_delete Coverage Results" MODIFIED="1568350529678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_peewee" />
+    <SUITE FILE_PATH="coverage/Codes$wget.coverage" NAME="wget Coverage Results" MODIFIED="1543464389182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$colorama_usage.coverage" NAME="colorama_usage Coverage Results" MODIFIED="1543470223413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$process_usage.coverage" NAME="process_usage Coverage Results" MODIFIED="1543642208585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/nvidia-ml" />
+    <SUITE FILE_PATH="coverage/Codes$pendulum_usage.coverage" NAME="pendulum_usage Coverage Results" MODIFIED="1543465254840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$cv_usage.coverage" NAME="cv_usage Coverage Results" MODIFIED="1548399257365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the_xgboost" />
+    <SUITE FILE_PATH="coverage/Codes$demo.coverage" NAME="demo Coverage Results" MODIFIED="1550024547165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/imgaug" />
+    <SUITE FILE_PATH="coverage/Codes$threading_job.coverage" NAME="threading_job Coverage Results" MODIFIED="1543478710209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/base" />
+    <SUITE FILE_PATH="coverage/Codes$threading_timer.coverage" NAME="threading_timer Coverage Results" MODIFIED="1543482117427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/base" />
+    <SUITE FILE_PATH="coverage/Codes$prettytable_usage.coverage" NAME="prettytable_usage Coverage Results" MODIFIED="1543469333572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$mix_img.coverage" NAME="mix_img Coverage Results" MODIFIED="1545381356265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/Codes$example_vision.coverage" NAME="example_vision Coverage Results" MODIFIED="1547640535549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastai" />
+    <SUITE FILE_PATH="coverage/Codes$mmcv_image_basic_usage.coverage" NAME="mmcv_image_basic_usage Coverage Results" MODIFIED="1544705565017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/mmcv" />
+    <SUITE FILE_PATH="coverage/Codes$mmcv_vis_usage.coverage" NAME="mmcv_vis_usage Coverage Results" MODIFIED="1544704284816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/mmcv" />
+    <SUITE FILE_PATH="coverage/Codes$data_loader_pytorch_mnist.coverage" NAME="data_loader_pytorch_mnist Coverage Results" MODIFIED="1543918364518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/data_load" />
+    <SUITE FILE_PATH="coverage/Codes$demo_usage.coverage" NAME="demo_usage Coverage Results" MODIFIED="1545019686235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch/torch_encoding" />
+    <SUITE FILE_PATH="coverage/Codes$test.coverage" NAME="test Coverage Results" MODIFIED="1543237485093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/skimage" />
+    <SUITE FILE_PATH="coverage/Codes$data_load_with_pytorch.coverage" NAME="data_load_with_pytorch Coverage Results" MODIFIED="1543910205456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/data_load" />
+    <SUITE FILE_PATH="coverage/Codes$mmcv_utils_timer_usage.coverage" NAME="mmcv_utils_timer_usage Coverage Results" MODIFIED="1544703542890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/mmcv" />
+    <SUITE FILE_PATH="coverage/Codes$demo_find.coverage" NAME="demo_find Coverage Results" MODIFIED="1568350322863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_peewee" />
+    <SUITE FILE_PATH="coverage/Codes$concat_img.coverage" NAME="concat_img Coverage Results" MODIFIED="1545383670740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/Codes$get_box_intersects.coverage" NAME="get_box_intersects Coverage Results" MODIFIED="1550295959295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/the_shapely" />
+    <SUITE FILE_PATH="coverage/Codes$mmcv_file_color_space_conversion_usage.coverage" NAME="mmcv_file_color_space_conversion_usage Coverage Results" MODIFIED="1544705808851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/mmcv" />
+    <SUITE FILE_PATH="coverage/Codes$demo_create.coverage" NAME="demo_create Coverage Results" MODIFIED="1568350542256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_peewee" />
+    <SUITE FILE_PATH="coverage/Codes$format_bytes.coverage" NAME="format_bytes Coverage Results" MODIFIED="1544080583144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/base" />
+    <SUITE FILE_PATH="coverage/Codes$4_0_segmap_usage.coverage" NAME="4_0_segmap_usage Coverage Results" MODIFIED="1547705135038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/imgaug" />
+    <SUITE FILE_PATH="coverage/Codes$1_flat.coverage" NAME="1-flat Coverage Results" MODIFIED="1546864910226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fb_faiss" />
+    <SUITE FILE_PATH="coverage/Codes$example_cifar10.coverage" NAME="example_cifar10 Coverage Results" MODIFIED="1544690367480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastai" />
+    <SUITE FILE_PATH="coverage/Codes$client.coverage" NAME="client Coverage Results" MODIFIED="1546421446306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/celery" />
+    <SUITE FILE_PATH="coverage/Codes$draw.coverage" NAME="draw Coverage Results" MODIFIED="1547111831787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/pillow" />
+    <SUITE FILE_PATH="coverage/Codes$class_usage.coverage" NAME="class_usage Coverage Results" MODIFIED="1547695427018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$flag_usage.coverage" NAME="flag_usage Coverage Results" MODIFIED="1544080640131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
+    <SUITE FILE_PATH="coverage/Codes$file_path_usage.coverage" NAME="file_path_usage Coverage Results" MODIFIED="1544689733824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/base" />
+    <SUITE FILE_PATH="coverage/Codes$progressbar_usage.coverage" NAME="progressbar_usage Coverage Results" MODIFIED="1543470067986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$fuzzywuzzy.coverage" NAME="fuzzywuzzy Coverage Results" MODIFIED="1543469857803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$sh_usage.coverage" NAME="sh_usage Coverage Results" MODIFIED="1543469644499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$feature_importance_usage.coverage" NAME="feature_importance_usage Coverage Results" MODIFIED="1548415304675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the_xgboost" />
+    <SUITE FILE_PATH="coverage/Codes$mmcv_file_load_text.coverage" NAME="mmcv_file_load_text Coverage Results" MODIFIED="1544704839904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/mmcv" />
+    <SUITE FILE_PATH="coverage/Codes$sub_mean.coverage" NAME="sub_mean Coverage Results" MODIFIED="1545121310259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocess/img_normal" />
+    <SUITE FILE_PATH="coverage/Codes$base.coverage" NAME="base Coverage Results" MODIFIED="1550047413101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/Codes$4_2_segmap_array_usage.coverage" NAME="4_2_segmap_array_usage Coverage Results" MODIFIED="1547705835069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/imgaug" />
+    <SUITE FILE_PATH="coverage/Codes$mmcv_utils_progressbar_usage.coverage" NAME="mmcv_utils_progressbar_usage Coverage Results" MODIFIED="1544703299882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/mmcv" />
+    <SUITE FILE_PATH="coverage/Codes$eval_usage.coverage" NAME="eval_usage Coverage Results" MODIFIED="1548399473217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the_xgboost" />
+    <SUITE FILE_PATH="coverage/Codes$easydict_usage.coverage" NAME="easydict_usage Coverage Results" MODIFIED="1545279753181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Codes$dmatrix_usage.coverage" NAME="dmatrix_usage Coverage Results" MODIFIED="1548385004375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the_xgboost" />
+    <SUITE FILE_PATH="coverage/Codes$data_load_with_keras.coverage" NAME="data_load_with_keras Coverage Results" MODIFIED="1543890394297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/data_load" />
+    <SUITE FILE_PATH="coverage/Codes$2_0_keypoint_usage.coverage" NAME="2_0_keypoint_usage Coverage Results" MODIFIED="1547697629322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/imgaug" />
+    <SUITE FILE_PATH="coverage/Codes$2_ivfflat.coverage" NAME="2-ivfflat Coverage Results" MODIFIED="1546865028752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fb_faiss" />
+    <SUITE FILE_PATH="coverage/Codes$demo_update.coverage" NAME="demo_update Coverage Results" MODIFIED="1568350443658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_peewee" />
+    <SUITE FILE_PATH="coverage/Codes$4_1_mask_usage.coverage" NAME="4_1_mask_usage Coverage Results" MODIFIED="1547705787594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/imgaug" />
+    <SUITE FILE_PATH="coverage/Codes$data_augmentation.coverage" NAME="data_augmentation Coverage Results" MODIFIED="1544703848348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastai" />
+    <SUITE FILE_PATH="coverage/Codes$basic_usage.coverage" NAME="basic_usage Coverage Results" MODIFIED="1543471556004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/psutil" />
+    <SUITE FILE_PATH="coverage/Codes$make_data_listfile.coverage" NAME="make_data_listfile Coverage Results" MODIFIED="1546056724983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/cv" />
+    <SUITE FILE_PATH="coverage/Codes$3_ivfpq.coverage" NAME="3-ivfpq Coverage Results" MODIFIED="1546865153402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fb_faiss" />
+    <SUITE FILE_PATH="coverage/Codes$1_0_simple_usage.coverage" NAME="1_0_simple_usage Coverage Results" MODIFIED="1547697184267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/imgaug" />
+    <SUITE FILE_PATH="coverage/Codes$predict_usage.coverage" NAME="predict_usage Coverage Results" MODIFIED="1548401907745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the_xgboost" />
+    <SUITE FILE_PATH="coverage/Codes$func_descrator_usage.coverage" NAME="func_descrator_usage Coverage Results" MODIFIED="1547696267449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-426743384">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="3" />
+          <entry key="jpeg" value="6" />
+          <entry key="jpg" value="38" />
+          <entry key="md" value="7" />
+          <entry key="py" value="294" />
+          <entry key="pyi" value="1" />
+          <entry key="test" value="1" />
+          <entry key="train" value="1" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="44" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="294" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="46" />
+          <entry key="gitignore" value="39" />
+          <entry key="md" value="97" />
+          <entry key="py" value="28578" />
+          <entry key="txt" value="139" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="97" />
+          <entry key="PLAIN_TEXT" value="224" />
+          <entry key="Python" value="28578" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_peewee/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <marker date="1568349452881" expanded="true" signature="380:419" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_peewee/models/user_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="e#192#226#0" expanded="true" />
+                <marker date="1568349327281" expanded="true" signature="496:497" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/peewee.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="1939" column="8" selection-start-line="1939" selection-start-column="8" selection-end-line="1939" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_peewee/demo_find.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_peewee/demo_update.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_peewee/demo_delete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_peewee/demo_create.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="e#193#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>enu</find>
+      <find>&gt;&gt;&gt;&gt;&gt;&gt;</find>
+      <find>&gt;&gt;</find>
+      <find>126</find>
+      <find>bright</find>
+      <find>hue</find>
+      <find>GEOMETRYCOLLECTION</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/python</dir>
+      <dir>$PROJECT_DIR$/the_xgboost</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pytorch/torch_vision_utils.py" />
+        <option value="$PROJECT_DIR$/opencv/concat_img.py" />
+        <option value="$PROJECT_DIR$/python/colorama_usage.py" />
+        <option value="$PROJECT_DIR$/python/cv/make_data_set_list.py" />
+        <option value="$PROJECT_DIR$/python/cv/make_data_listfile.py" />
+        <option value="$PROJECT_DIR$/python/celery/app.py" />
+        <option value="$PROJECT_DIR$/python/celery/task_01.py" />
+        <option value="$PROJECT_DIR$/python/celery/tasks.py" />
+        <option value="$PROJECT_DIR$/python/celery/client.py" />
+        <option value="$PROJECT_DIR$/python/mmcv/mmcv_vis_usage.py" />
+        <option value="$PROJECT_DIR$/fb_faiss/1-flat.py" />
+        <option value="$PROJECT_DIR$/fb_faiss/2-ivfflat.py" />
+        <option value="$PROJECT_DIR$/fb_faiss/3-ivfpq.py" />
+        <option value="$PROJECT_DIR$/fb_faiss/4-gpu.py" />
+        <option value="$PROJECT_DIR$/fb_faiss/5-multi-gpu.py" />
+        <option value="$PROJECT_DIR$/python/base/time_usage.py" />
+        <option value="$PROJECT_DIR$/python/pillow/draw.py" />
+        <option value="$PROJECT_DIR$/python/class_usage.py" />
+        <option value="$PROJECT_DIR$/fastai/example_vision.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/README.md" />
+        <option value="$PROJECT_DIR$/python/func_descrator_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/1_0_standard_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/1_0_simple_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/1_2_heavy_aug.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/2_0_keypoint_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/3_0_bbox_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/3_1_bbox_outsize_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/4_0_segmap_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/4_1_mask_usage.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/4_2_segmap_array_usage.py" />
+        <option value="$PROJECT_DIR$/the_xgboost/dmatrix_usage.py" />
+        <option value="$PROJECT_DIR$/the_xgboost/train_usage.py" />
+        <option value="$PROJECT_DIR$/the_xgboost/cv_usage.py" />
+        <option value="$PROJECT_DIR$/the_xgboost/eval_usage.py" />
+        <option value="$PROJECT_DIR$/the_xgboost/inference.py" />
+        <option value="$PROJECT_DIR$/the_xgboost/predict_usage.py" />
+        <option value="$PROJECT_DIR$/the_xgboost/feature_importance_usage.py" />
+        <option value="$PROJECT_DIR$/python/pillow/concat_imgs.py" />
+        <option value="$PROJECT_DIR$/python/imgaug/demo.py" />
+        <option value="$PROJECT_DIR$/opencv/base.py" />
+        <option value="$PROJECT_DIR$/python/sh_usage.py" />
+        <option value="$PROJECT_DIR$/python/the_shapely/get_box_intersects.py" />
+        <option value="$PROJECT_DIR$/pytorch/torch_encoding/demo_usage.py" />
+        <option value="$PROJECT_DIR$/py_peewee/conn.py" />
+        <option value="$PROJECT_DIR$/py_peewee/models/UserScore.py" />
+        <option value="$PROJECT_DIR$/py_peewee/models/user_score.py" />
+        <option value="$PROJECT_DIR$/py_peewee/demo_create.py" />
+        <option value="$PROJECT_DIR$/py_peewee/db.py" />
+        <option value="$PROJECT_DIR$/py_peewee/demo_find.py" />
+        <option value="$PROJECT_DIR$/py_peewee/demo_update.py" />
+        <option value="$PROJECT_DIR$/py_peewee/demo_delete.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codes" type="462c0819:PsiDirectoryNode" />
+              <item name="py_peewee" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/opencv" />
+      <recent name="$PROJECT_DIR$/pytorch/images" />
+      <recent name="$PROJECT_DIR$/preprocess/img_normal/imgs" />
+      <recent name="$PROJECT_DIR$/pytorch/torch_encoding" />
+      <recent name="$PROJECT_DIR$/python/mmcv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/data_load" />
+      <recent name="$PROJECT_DIR$/python/psutil" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.demo_create">
+    <configuration name="demo_create" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_peewee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_peewee/demo_create.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_delete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_peewee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_peewee/demo_delete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_find" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_peewee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_peewee/demo_find.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_update" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_peewee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_peewee/demo_update.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_usage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch/torch_encoding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch/torch_encoding/demo_usage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.demo_usage" />
+      <item itemvalue="Python.demo_create" />
+      <item itemvalue="Python.demo_find" />
+      <item itemvalue="Python.demo_update" />
+      <item itemvalue="Python.demo_delete" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo_create" />
+        <item itemvalue="Python.demo_delete" />
+        <item itemvalue="Python.demo_update" />
+        <item itemvalue="Python.demo_find" />
+        <item itemvalue="Python.demo_usage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da2e20b7-16bb-4fb3-9551-dda8f20f73d6" name="Default Changelist" comment="" />
+      <created>1542685970917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542685970917</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25648415" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37317786" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32980973" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32980973" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.4755043" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/xgboost/plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="67" column="70" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/xgboost/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28519">
+          <caret line="1513" column="23" selection-start-line="1513" selection-start-column="19" selection-end-line="1513" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/example_segmaps_bool.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/imgaug/augmenters/arithmetic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="637" column="38" selection-start-line="637" selection-start-column="14" selection-end-line="637" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/imgaug/augmenters/flip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/2_0_keypoint_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/4_1_mask_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/3_1_bbox_outsize_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/concat_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastai/data_augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/1_1_simple_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/1_2_heavy_aug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="110" column="18" selection-start-line="108" selection-start-column="16" selection-end-line="110" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/3_0_bbox_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/imgs/img1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/imgaug/augmenters/color.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="262" column="45" selection-start-line="262" selection-start-column="36" selection-end-line="262" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pillow/im_and_np.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pendulum_usage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/sh_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/shapely/geometry/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="478" column="8" selection-start-line="478" selection-start-column="8" selection-end-line="478" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/shapely/geometry/polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="209" column="13" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/shapely/geometry/collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/the_shapely/get_box_intersects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/progressbar_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/freeze_graph_simplified.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pillow/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pillow/draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastai/3_line_code.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastai/example_vision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/base/file_path_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/base/system_metrics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/base/format_bytes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/base/threading_timer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/base/time_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/cv/make_data_listfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mmcv/mmcv_vis_usage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/imgaug/1_0_standard_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/fuzzywuzzy_usage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/func_descrator_usage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch/torch_encoding/demo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch/torch_encoding/demo_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#64#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/simplecv/basic_usage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/mix_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_peewee/demo_create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#193#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_peewee/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1568349452881" expanded="true" signature="380:419" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/peewee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1939" column="8" selection-start-line="1939" selection-start-column="8" selection-end-line="1939" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_peewee/models/user_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#192#226#0" expanded="true" />
+            <marker date="1568349327281" expanded="true" signature="496:497" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_peewee/demo_find.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_peewee/demo_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_peewee/demo_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
